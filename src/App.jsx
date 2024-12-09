@@ -1,6 +1,7 @@
 import Header from "./componets/Header"
 import ProductCard from "./componets/ProcuctCard"
 import PRODUCTS from "././data/products"
+import Footer from "./componets/Footer"
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
           )
         })}
       </section>
+      <Footer/>
     </>
   )
 }
