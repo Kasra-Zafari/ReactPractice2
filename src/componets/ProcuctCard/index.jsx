@@ -9,9 +9,9 @@ const ProductCard = (props) => {
                     <img src={image} alt="" width="120px" />
                 </div>
                 <div className={classes.caption}>
-                    <h5 style={{ height: "50px" }}>{title}</h5>
+                    <h5 className={classes.title}>{title}</h5>
                     <p>{category}</p>
-                    <p>{price}$</p>
+                    <p className={classes.price1}>{price}$</p>
                     <p>Rate: {rate}</p>
                 </div>
             </div>
