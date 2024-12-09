@@ -33,7 +33,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className={classes.logo}>
-                <img src="logo.png" alt="" />
+                <img src="logo.png" alt="" width="300px" />
             </div>
         </footer>
     )
