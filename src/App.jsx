@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <h1 style={{marginLeft:"5rem"}}>All Products</h1>
+      <h1 style={{width:"75%", margin:"2.5rem auto"}}>All Products</h1>
       <section className="row">
         {PRODUCTS.map((product)=>{
           return(
