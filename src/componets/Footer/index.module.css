@@ -1,17 +1,27 @@
 footer{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
+    background-color: black;
+    color: white;
+}
+
+footer h3{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
 }
 
 .logo{
-    background-color: red;
+    /* background-color: red; */
 }
 .company{
-    background-color: blue;
+    /* background-color: blue; */
 }
 .account{
-    background-color: green;
+    /* background-color: green; */
 }
 .follow{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
